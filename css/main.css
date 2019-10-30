@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+}
+
+.link-card {
+  padding: 1rem;
+  max-width: 340px;
+  border: 3px solid #9a816d;
+  background-color: #dcd4cd;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.link-card .btn {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  border-radius: 8px;
+  border: 0;
+  color: #f0eee8;
+  text-decoration: none;
+}
+
+.link-card .btn-wrap {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  color: #512200;
+  margin: 0;
+}
+
+p {
+  font-family: "Georgia";
+  font-size: 1.125rem;
+  color: #785439;
+}
+
+hr {
+  color: #9a816d;
+  border-width: 2px;
+}
+
+dl {
+  font-size: .875rem;
+  color: #785439;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dt {
+  font-family: "Georgia";
+  width: 50%;
+}
+
+dd {
+  font-family: "Georgia";
+  font-style: italic;
+  width: 50%;
+  margin: 0;
+}
+
+.btn {
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  background-color: #512200;
+
+}
